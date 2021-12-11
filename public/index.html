@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Armis HeatMap Exercise</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script type="module">
+        import React from 'https://dev.jspm.io/react@16.8.6';
+        import ReactDOM from 'https://dev.jspm.io/react-dom@16.8.6';
+
+        import HeatMap from './index.js';
+
+        window.onload = function () {
+            fetch('data.json')
+                .then((response) => response.json())
+                .then((data) => {
+                    let app = React.createElement(HeatMap, {data});
+                    let root = document.getElementById('root');
+                    ReactDOM.render(app, root);
+                });
+        }
+    </script>
+</head>
+<body>
+<div id="root">Loading...</div>
+</body>
+</html>

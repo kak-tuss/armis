@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: indianred;
+}
+
+h2 {
+    color: #4183C4;
+}
+td, th {
+    width: 25px;
+}
+th  {
+    font-weight: normal;
+    color: lightslategray;
+    font-size: 12px;
+    padding-right: 10px;
+}
+tfoot th {
+    padding: 0;
+    text-align: center;
+}
+tfoot th:first-child {
+    padding-right: 10px;
+}
+
+label {
+    color: lightslategray;
+    font-size: 14px;
+    width: 50px;
+    margin: 30px 0;
+}
+label input {
+    height: 10px;
+}
+td { 
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 20px;
+}
+.none {
+    color: lightgray;
+}
+.first {
+    color: lightskyblue
+}
+.second {
+    color: green;
+}
+.third {
+    color: yellow;
+}
+.fourth {
+    color: orange;
+}
+.fifth {
+    color: red;
+}
+.sixth {
+    color: firebrick;
+}
+.seventh {
+    color: purple;
+}
+.eighth {
+    color: rebeccapurple;
+}

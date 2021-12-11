@@ -1,0 +1,11 @@
+{
+  "name": "app-team-candidate-test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "open": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
